@@ -1,9 +1,17 @@
 import { HeroPage } from "./pages/HeroPage";
+import { ParallaxPage } from "./pages/ParallaxPage";
 
-export default function Component() {
+export const App = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white overflow-hidden">
-      <HeroPage />
-    </div>
+    <>
+      <section className="min-h-screen bg-gray-900 text-white overflow-hidden">
+        <HeroPage />
+      </section>
+      <section className="h-screen">
+        <ParallaxPage />
+      </section>
+    </>
   );
-}
+};
+
+export default App;
