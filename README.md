@@ -1,51 +1,34 @@
-# React + TypeScript + Vite
+# Hero Page Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern hero page built with **React**, **TypeScript**, and **Vite**. It offers a seamless user experience with smooth scrolling and a responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Hero Page Design**: Aesthetic  interface
+- **Parallax**: Scrolling visual effects
+- **Smooth Scrolling**: Fluid navigation experience
+- **Responsive Layout**: Optimized for all screen sizes
+- **Built with React, TypeScript, and Vite**
 
-## Expanding the ESLint configuration
+## 💡 Project Purpose
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This hero page project was created to fulfill the requirements of a technical test.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Technical Details
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This project uses key tools and libraries to create an interactive UI:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **React & TypeScript**: For component-based structure and type safety.
+- **Vite**: Fast bundling and development server.
+- **Framer Motion**: Adds animations and smooth scrolling.
+- **Tailwind CSS**: Provides responsive, efficient styling.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🛠 Built With
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-# hero_page
+This project is made possible by these tools and libraries:
+
+- React
+- TypeScript
+- Vite
+- Framer Motion
+- Tailwind CSS
