@@ -4,8 +4,9 @@ import { HeroButton } from "./HeroButton";
 import { HeroArrow } from "./HeroArrow";
 
 export const HeroContainer = () => {
-  const title = "Hero Page for G&M";
-  const subtitle = "Test Task by Skydan Dmytro";
+  const title = "Hero Page Example";
+  const subtitle =
+    "A sleek, modern hero page built with React, TypeScript, and Vite.";
   return (
     <>
       <HeroTitle titleText={title} />

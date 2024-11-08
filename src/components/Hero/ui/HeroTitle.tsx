@@ -10,7 +10,7 @@ export const HeroTitle = ({ titleText }: HeroTitleProps) => {
         className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.25 }}
+        transition={{ duration: 0.2 }}
       >
         {titleText.split("").map((char, index) => (
           <HeroTitleItem key={index} char={char} index={index} />
